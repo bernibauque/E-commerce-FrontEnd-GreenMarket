@@ -196,11 +196,16 @@ const OurStore = () => {
                                     <p className='mb-0 d-block' style={{ width: "150px" }}>
                                         Ordenar Por:
                                     </p>
-                                    <select name='' className='form-control form-select' id=''>
+                                    <select
+                                        name=''
+                                        defaultValue={""}
+                                        className='form-control form-select'
+                                        id=''
+                                    >
                                         <option value='manual'>
                                             Destacados
                                         </option>
-                                        <option value='best-selling' selected='selected'>
+                                        <option value='best-selling'>
                                             Mas Vendidos
                                         </option>
                                         <option value='title-ascending'>
