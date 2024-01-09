@@ -16,7 +16,8 @@ const Signup = () => {
                         <div className='auth-card'>
                             <h3 className='text-center mb-3'>Crea una cuenta</h3>
                             <form action='' className='d-flex flex-column gap-15'>
-                                <CustomInput type='text' name='name' placeholder='Nombre' />
+                                <CustomInput type='text' name='firstname' placeholder='Nombre' />
+                                <CustomInput type='text' name='lastname' placeholder='Apellido' />
                                 <CustomInput type='email' name='email' placeholder='Email' />
                                 <CustomInput
                                     type='tel'
