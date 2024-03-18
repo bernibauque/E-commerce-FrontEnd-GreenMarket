@@ -1,46 +1,33 @@
-# Getting Started with Create React App and Redux
+# Proyecto: Front End para E-commerce "Green Market"
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Este repositorio aloja el Front End de un sitio web de comercio electrónico dedicado a la venta de alimentos saludables. Esta  desarrollado utilizando React.js junto con HTML, CSS y Bootstrap5.
+El objetivo es proporcionar una plataforma elegante y funcional para la venta de productos en línea, aprovechando las capacidades de React para crear una interfaz de usuario dinámica e interactiva. Con un diseño receptivo y atractivo, este sitio web ofrece una experiencia de compra intuitiva y agradable para los usuarios.
 
-## Available Scripts
+## Bibliotecas Utilizadas
 
-In the project directory, you can run:
+1. **@reduxjs/toolkit** (^1.9.7): Conjunto de herramientas oficial para Redux.
+2. **@testing-library/jest-dom** (^5.17.0): Biblioteca de pruebas para DOM con Jest.
+3. **@testing-library/react** (^13.4.0): Biblioteca de pruebas para React.
+4. **@testing-library/user-event** (^14.5.1): Biblioteca de pruebas para eventos de usuario.
+5. **react** (^18.2.0): Biblioteca principal de React.
+6. **react-dom** (^18.2.0): Renderizado de React para el DOM.
+7. **react-fast-marquee** (^1.6.2): Componente de desplazamiento rápido para React.
+8. **react-helmet** (^6.1.0): Componente React para la manipulación del encabezado del documento.
+9. **react-icons** (^4.12.0): Iconos de React.
+10. **react-image-zoom** (^1.3.1): Componente de zoom de imagen para React.
+11. **react-rating-stars-component** (^2.2.0): Componente de clasificación de estrellas para React.
+12. **react-redux** (^8.1.3): Biblioteca para la integración de Redux con React.
+13. **react-router-dom** (^6.20.1): Enrutador para aplicaciones web de React.
+14. **react-scripts** (5.0.1): Scripts preconfigurados para aplicaciones de React.
+15. **web-vitals** (^2.1.4): Biblioteca para medir métricas de rendimiento web vitales.
 
-### `npm start`
+## Scripts
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- `start`: Inicia el servidor de desarrollo.
+- `build`: Crea una versión optimizada para producción.
+- `test`: Ejecuta pruebas utilizando Jest.
+- `eject`: Expulsa la configuración de herramientas y dependencias preconfiguradas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Guía de Desarrollo
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para comenzar, clona el repositorio y ejecuta `npm install` para instalar las dependencias. Luego, puedes iniciar el servidor de desarrollo con `npm start` y acceder a la aplicación en tu navegador web.
