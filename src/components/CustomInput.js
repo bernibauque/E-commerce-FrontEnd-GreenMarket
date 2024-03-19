@@ -1,3 +1,4 @@
+// Mi campo de entrada personalizado
 import React from 'react';
 
 const CustomInput = (props) => {

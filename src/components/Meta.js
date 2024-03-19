@@ -1,3 +1,4 @@
+// Utilizacion de biblioteca react-helmet para manejar metadatos de la página
 import { Helmet } from 'react-helmet';
 import React from 'react'
 

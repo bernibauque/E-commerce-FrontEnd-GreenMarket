@@ -1,3 +1,5 @@
+// Renderiza una tarjeta de blog con una imagen, título, fecha y una breve descripción
+// y proporciona un enlace para ver más detalles del blog
 import React from 'react';
 import { Link } from 'react-router-dom';
 

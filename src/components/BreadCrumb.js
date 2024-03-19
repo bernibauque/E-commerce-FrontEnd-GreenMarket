@@ -1,3 +1,5 @@
+// Componente que representa una barra de navegación bread crumb
+// acepta una prop title de la página actual en el bc y enlace a la pag de inicio
 import React from 'react'
 import { Link } from 'react-router-dom'
 

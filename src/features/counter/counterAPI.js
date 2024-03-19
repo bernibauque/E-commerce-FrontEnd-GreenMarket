@@ -1,4 +1,4 @@
-// A mock function to mimic making an async request for data
+// Una función simulada para imitar la realización de una solicitud asíncrona de datos
 export function fetchCount(amount = 1) {
   return new Promise((resolve) =>
     setTimeout(() => resolve({ data: amount }), 500)

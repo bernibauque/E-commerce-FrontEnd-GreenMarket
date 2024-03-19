@@ -1,9 +1,10 @@
+// Representacion visual de los detalles de un producto de la tienda. 
+// incluidas su imagen, título, descripción, precio y acciones relacionadas
 import React from 'react';
-import ReactStars from 'react-rating-stars-component';
+import ReactStars from 'react-rating-stars-component'; // Sistema de calificación de estrellas
 import { Link, useLocation } from 'react-router-dom';
 import prodcompare from "../images/prodcompare.svg";
 import wish from "../images/wish.svg";
-import wishlist from "../images/wishlist.svg";
 import yerba from "../images/yerba.jpg" /*watch */
 import yerba1 from "../images/yerba-1.jpg" /*watch2 */
 import addcart from "../images/add-cart.svg";
@@ -16,10 +17,10 @@ const ProductCard = (props) => {
     return (
         <>
             <div
-                className={` ${location.pathname == "/product" ? `gr-${grid}` : "col-3"} `}
+                className={` ${location.pathname === "/product" ? `gr-${grid}` : "col-3"} `}
             >
                 <Link
-                    to={`${location.pathname == "/" ? "product/:id" : ":id"}`}
+                    to={`${location.pathname === "/" ? "product/:id" : ":id"}`}
                     className='product-card position-relative'>
                     <div className='wishlist-icon position-absolute'>
                         <button className='border-0 bg-transparent'>
@@ -27,8 +28,8 @@ const ProductCard = (props) => {
                         </button>
                     </div>
                     <div className='product-image'>
-                        <img src={yerba} className='img-fluid' alt='product image' />
-                        <img src={yerba1} className='img-fluid' alt='product image' />
+                        <img src={yerba} className='img-fluid' alt='yerba' />
+                        <img src={yerba1} className='img-fluid' alt='yerba' />
                     </div>
                     <div className='product-details'>
                         <h6 className='brand'>Nuevo</h6>
@@ -66,10 +67,10 @@ const ProductCard = (props) => {
                 </Link>
             </div>
             <div
-                className={` ${location.pathname == "/product" ? `gr-${grid}` : "col-3"} `}
+                className={` ${location.pathname === "/product" ? `gr-${grid}` : "col-3"} `}
             >
                 <Link
-                    to={`${location.pathname == "/" ? "product/:id" : "product/:id"}`}
+                    to={`${location.pathname === "/" ? "product/:id" : "product/:id"}`}
                     className='product-card position-relative'>
                     <div className='wishlist-icon position-absolute'>
                         <button className='border-0 bg-transparent'>
@@ -77,8 +78,8 @@ const ProductCard = (props) => {
                         </button>
                     </div>
                     <div className='product-image'>
-                        <img src={yerba} className='img-fluid' alt='product image' />
-                        <img src={yerba1} className='img-fluid' alt='product image' />
+                        <img src={yerba} className='img-fluid' alt='yerba' />
+                        <img src={yerba1} className='img-fluid' alt='yerba' />
                     </div>
                     <div className='product-details'>
                         <h6 className='brand'>Nuevo</h6>
