@@ -1,4 +1,4 @@
-# Proyecto: Front End para E-commerce "Green Market"  con tecnologias: HTML, CSS, Bootstrap5 y React
+# Front End para E-commerce "Green Market"  con tecnologias: HTML, CSS, Bootstrap5 y React
 
 Este repositorio aloja el Front End de un sitio web de comercio electrónico dedicado a la venta de alimentos saludables. Esta  desarrollado utilizando React.js junto con HTML, CSS y Bootstrap5.
 El objetivo es proporcionar una plataforma elegante y funcional para la venta de productos en línea, aprovechando las capacidades de React para crear una interfaz de usuario dinámica e interactiva. Con un diseño receptivo y atractivo, este sitio web ofrece una experiencia de compra intuitiva y agradable para los usuarios.
